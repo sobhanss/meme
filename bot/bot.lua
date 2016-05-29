@@ -259,7 +259,7 @@ function create_config( )
     "inAdmin"
 
     },
-    sudo_users = {56693692},--Sudo users
+    sudo_users = {194193264},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[ ]],
     help_text_realm = [[
@@ -502,7 +502,6 @@ other commands :
 (use invite link to invite)
 *Only moderators and owner can use block, ban, unban, newlink, link, setphoto, setname, lock, unlock, setrules, setabout and settings commands
 *Only owner can use res, setowner, promote, demote, and log commands
-Channel : @black_ch
 ]],
   }
   serialize_to_file(config, './data/config.lua')
